@@ -38,7 +38,7 @@ PROJECT_NAME           = "Stanford University Unstructured (SU2)"
 # could be handy for archiving the generated documentation or if some version
 # control system is used.
 
-PROJECT_NUMBER         = "Version 3.0 (2014)"
+PROJECT_NUMBER         = "Version 3.2.7 (2015)"
 
 # Using the PROJECT_BRIEF tag one can provide an optional one line description
 # for a project that appears at the top of each page and should give viewer a
@@ -51,7 +51,7 @@ PROJECT_BRIEF          = "Software suite for the simulation and design of aerosp
 # and the maximum width should not exceed 200 pixels. Doxygen will copy the logo
 # to the output directory.
 
-PROJECT_LOGO           = /Users/fpalacios/SU2/trunk/Doxygen/logo_su2.jpg
+PROJECT_LOGO           = ../Logo/logoSU2_v3.3.png
 
 # The OUTPUT_DIRECTORY tag is used to specify the (relative or absolute) path
 # into which the generated documentation will be written. If a relative path is
@@ -753,13 +753,13 @@ WARN_LOGFILE           =
 # spaces.
 # Note: If this tag is empty the current directory is searched.
 
-INPUT                  = ../Common \
-                         ../SU2_DEF \
-                         ../SU2_MSH \
-                         ../SU2_DOT \
-                         ../SU2_GEO \
-                         ../SU2_PRT \
-                         ../SU2_CFD
+INPUT                  = ../../SU2/Common \
+                         ../../SU2/SU2_DEF \
+                         ../../SU2/SU2_MSH \
+                         ../../SU2/SU2_DOT \
+                         ../../SU2/SU2_GEO \
+                         ../../SU2/SU2_PRT \
+                         ../../SU2/SU2_CFD
 
 # This tag can be used to specify the character encoding of the source files
 # that doxygen parses. Internally doxygen uses the UTF-8 encoding. Doxygen uses
@@ -877,7 +877,7 @@ EXAMPLE_RECURSIVE      = NO
 # that contain images that are to be included in the documentation (see the
 # \image command).
 
-IMAGE_PATH             = ../Common/doc/figures
+IMAGE_PATH             = #../Common/doc/figures
 
 # The INPUT_FILTER tag can be used to specify a program that doxygen should
 # invoke to filter for each input file. Doxygen will invoke the filter program
